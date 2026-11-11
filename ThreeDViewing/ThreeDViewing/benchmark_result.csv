@@ -1,0 +1,10 @@
+No,Skenario,FPS,ms_per_frame,persen_vs_baseline
+1,"Baseline (Blinn-Phong, Smooth, Z-Buffer ON, Culling ON, Tekstur Mipmap, Shadow ON)",407.55,2.4537,0.00
+2,"Phong (bukan Blinn-Phong)",407.59,2.4535,0.00
+3,"Flat Shading",407.44,2.4544,0.00
+4,"Z-Buffer Depth Test OFF",416.88,2.3988,2.29
+5,"Back-Face Culling OFF",418.43,2.3899,2.67
+6,"Tekstur OFF",463.30,2.1584,13.68
+7,"Tekstur Nearest (tanpa mipmap)",410.02,2.4389,0.61
+8,"Shadow Mapping OFF",665.91,1.5017,63.39
+9,"Minimal (Tekstur OFF + Shadow OFF)",709.11,1.4102,74.00

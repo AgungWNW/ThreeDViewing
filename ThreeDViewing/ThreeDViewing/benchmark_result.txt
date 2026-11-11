@@ -1,0 +1,17 @@
+GPU      : Intel(R) HD Graphics 610
+Vendor   : Intel
+OpenGL   : 3.3.0 - Build 27.20.100.8729
+GLSL     : 3.30 - Build 27.20.100.8729
+Java     : 26 (Oracle Corporation)
+OS       : Windows 10 amd64
+
+No   Skenario                                                                                            FPS     ms/frame    vs Base
+1    Baseline (Blinn-Phong, Smooth, Z-Buffer ON, Culling ON, Tekstur Mipmap, Shadow ON)                407.5       2.4537       0.0%
+2    Phong (bukan Blinn-Phong)                                                                         407.6       2.4535       0.0%
+3    Flat Shading                                                                                      407.4       2.4544       0.0%
+4    Z-Buffer Depth Test OFF                                                                           416.9       2.3988       2.3%
+5    Back-Face Culling OFF                                                                             418.4       2.3899       2.7%
+6    Tekstur OFF                                                                                       463.3       2.1584      13.7%
+7    Tekstur Nearest (tanpa mipmap)                                                                    410.0       2.4389       0.6%
+8    Shadow Mapping OFF                                                                                665.9       1.5017      63.4%
+9    Minimal (Tekstur OFF + Shadow OFF)                                                                709.1       1.4102      74.0%
